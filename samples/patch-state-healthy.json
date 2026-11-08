@@ -1,0 +1,18 @@
+{
+  "reference_time": "2026-11-09T00:00:00Z",
+  "instances": [
+    {
+      "name": "db-1",
+      "pending_patches": [
+        {
+          "type": "BUGFIX",
+          "released_at": "2026-11-05T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "name": "app-2",
+      "pending_patches": []
+    }
+  ]
+}
