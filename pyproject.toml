@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oci-ootb-osmh-patch-compliance"
+version = "0.1.0"
+description = "OS Management Hub wiring plus an offline patch compliance reporter"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+oci-ootb-osmh-patch-compliance = "oci_ootb_osmh_patch_compliance.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
